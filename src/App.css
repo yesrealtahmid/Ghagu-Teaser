@@ -17,8 +17,7 @@ body {
 }
 
 .youtube-player {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
@@ -30,7 +29,6 @@ body {
   align-items: center;
   margin-top: 20px;
   gap: 15px;
-  padding: 10px 60px;
 }
 
 .control-button {
@@ -67,50 +65,21 @@ body {
   width: 100%;
   background-color: #cc334f;
   transition: width 0.1s ease;
+  border-radius: 8px;
 }
 
-.buttons{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
-
-.volume-control {
-  margin-left: 10px;
+.youtube-and-progress{
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Volume slider styling */
-.volume-slider {
-  -webkit-appearance: none;
-  width: 150px; /* Set slider width */
-  height: 8px; /* Set slider height */
-  background-color: #ddd; /* Set track color */
-  border-radius: 5px; /* Make the track rounded */
-  outline: none; /* Remove default outline */
-  transition: background-color 0.3s ease;
-}
+.progress-bar-container{
+  width: 75rem;
 
-/* Style for the thumb (the circle) */
-.volume-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #cc334f; 
-  cursor: pointer;
-}
+  border-radius: 8px;
+  bottom: 5%;
+  position: absolute;
 
-/* Firefox styles */
-.volume-slider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #cc334f; /* Green color to match the theme */
-  cursor: pointer;
 }
