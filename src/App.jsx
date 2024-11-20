@@ -4,7 +4,7 @@ import logo from './assets/logo.png'
 const App = () => {
 
   return (
-    <main className=''>
+    <main className='container mx-auto'>
       <nav className='flex items-center justify-between container mx-auto px-5'>
         <a href="#"><img className='w-48' src={logo} alt="" /></a>
         <ul className='flex items-center gap-9'>
@@ -12,7 +12,7 @@ const App = () => {
           <li className='text-white'><a href="https://www.youtube.com/@GhaguEmerald" target='_blank'>Youtube</a></li>
         </ul>
       </nav>
-      <div className='youtube-Player'>
+      <div className='youtube-Player mt-20'>
         <VideoIframe videoId={'mO-qxAJwD34'}></VideoIframe>
       </div>
     </main>

@@ -48,7 +48,7 @@ const VideoIframe = (props) => {
         <iframe
             ref={iframeRef}
             title={title}
-            width="70%"
+            width="100%"
             height={`${videoHeight}px`}
             src={videoURL}
             frameBorder="0"

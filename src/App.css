@@ -2,13 +2,7 @@ body{
   background-color: #0d1216;
 }
 
-.youtube-Player{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  
-}
+
 
 iframe{
   border: 2px solid #00684f;
